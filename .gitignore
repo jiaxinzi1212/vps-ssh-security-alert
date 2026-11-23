@@ -1,0 +1,20 @@
+# Do not commit local secrets, credentials, keys, IP allowlists or logs.
+*.env
+.env
+.env.*
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+*secret*
+*token*
+*credential*
+ssh-login-dingtalk.json
+trusted-ips*.json
+trusted-ips*.txt
+*.log
+*.cache
+__pycache__/
+*.pyc
+.DS_Store
